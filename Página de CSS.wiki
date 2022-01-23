@@ -1,0 +1,10 @@
+
+= CSS =
+
+The Ultimate Guide to Learning CSS
+: (https://zendev.com/ultimate-guide-to-learning-css.html)
+
+Lacunas no meu conhecimento:
+
+* Layout Responsivo:
+	* Flexbox e grid.

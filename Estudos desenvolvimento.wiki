@@ -1,0 +1,56 @@
+
+= Tópicos =
+
+== Front-end ==
+
+* HTML => Entendo bem.
+* CSS => Entendo moderadamente.
+	* [[Página de CSS]] 
+* Javascript => Entendo pouco.
+
+== Back-end ==
+
+* Framewor => Node.js (Arbitrário. A documentação parece simples e direta.)
+
+== Banco de dados ==
+
+* Configurar e usar um banco de dados.
+* Aprender a modelar um banco.
+* Aprender a escrever boas queries.
+
+== Algoritmos e estruturas de dados ==
+
+* A definir.
+
+== Engenharia de software ==
+
+== Infraestrutura e operações ==
+
+* Containerizando aplicações.
+* Automatizando build e deploy.
+
+== Projetos ==
+
+* Página de autenticação simples.
+	* Usuário entra com usuário e senha. 
+	* Javascript no cliente processa e permite a entrada, revelando outra página.
+	* Tudo feito no front.
+* Layout de página única.
+	* Consolidação dos conhecimentos de front. 
+	* Foco em estilo e responsividade.
+	* Planejar layout da página com antecedência.
+* Sistema de e-commerce (P.ex. site de venda de ingressos.)
+	* Primeiro projeto p/ integrar o back-end.
+	* Utilizar os conceitos dos projetos anteriores p/ fazê-lo.
+ 
+= Calendário =
+
+# Eloquent Javascript => (24/jan - 4/fev | 2 semanas)
+# Projeto de autenticação => (7/fev - 11/fev | 1 semana)
+# Replicação de layout web => (14/fev - 4/mar | 3 semanas)
+	# TODO: DEFINIR QUAL LAYOUT IREI REPLICAR. 
+# Meu primeiro framework back-end: Node.js => (7/mar - 1/abr | 4 semanas)
+# Configurando primeiro banco de dados => (4/abr - 15/abr | 2 semanas)
+	# TODO: Definir qual vai ser o banco. 
+# Sistema simples de e-commerce => (18/abr - 27/mai | 6 semanas)
+
