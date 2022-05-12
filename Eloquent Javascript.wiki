@@ -1,0 +1,9 @@
+
+= Eloquent Javascript =
+
+* Bindings e expressões.
+* Funções.
+* Estruturas de dados.
+* Em Javascript, colocar colchete ao lado de um valor significa obter a propriedade daquela estrutura de dados com o nome
+indicado no colchete. P. ex. listaDeAlunos["length"] representa a mesma coisa que listaDeAlunos.length, pois length é uma
+propriedade de arrays.

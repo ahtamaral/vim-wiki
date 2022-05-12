@@ -6,3 +6,6 @@
 	by: Artur Amaral
 	
 * [[Estudos desenvolvimento]]
+* [[Eloquent Javascript]]
+* [[Carreira]]
+* [[Zet]]

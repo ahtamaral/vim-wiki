@@ -1,0 +1,13 @@
+# 202205121829 Índice do meu Zettelkasten
+#zettelkasten #metodo #indice
+
+Para entender o Zettelkasten é preciso ler seus principios [[xyz123]].
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est.
+
+Isso leva diretamente ao ponto de que é necessário usar a VimWiki p/ escrever um Zettelkasten eficiente [[202205121833]] 

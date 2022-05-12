@@ -1,0 +1,11 @@
+
+Junior -> Recém formado. Pouca ou nenhuma experiência na área. Pode ser um gênio prodígio, mas ainda não possui resultados
+observáveis.
+
+O mesmo problema dado para um junior, um pleno ou senior podem ser resolvidos com qualidade similar. O que vai variar é
+o tempo. O junior não tem experiencia, vai ter muita tentativa e erro até achar combinação de programação e arquitetura
+para resolver o problema de forma mais eficiente. O pleno vai ter um número menor de tentativa e erro. Um senior provavelmente
+já viu o problema e já tem meio caminho andado.
+
+Akita não gosta da definição de que a qualidade do código do Junior é pior que a do Pleno que é pior do que a do Senior.
+Se subiram código ruim do junior em produção é porque não supervisionaram.
