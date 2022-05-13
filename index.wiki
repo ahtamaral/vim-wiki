@@ -3,9 +3,10 @@
 = VIM WIKI =
 ============
 	
-	by: Artur Amaral
-	
-* [[Estudos desenvolvimento]]
-* [[Eloquent Javascript]]
-* [[Carreira]]
-* [[Zet]]
+# Base de conhecimento pessoal feita em formato Zettelkasten
+# Artur Amaral | 12/05/2022
+
+# Index
+
+* Javascript
+* Escalando projetos web [[202205130947]]

@@ -1,0 +1,12 @@
+# 202205130959 Conceito de um e-commerce
+
+- Contexto: Baseado no estudo Akita sobre o caso ingresso.com
+
+- O e-commerce é um site que oferece uma variedade de produtos em certa quantidade
+finita. Quando um usuário requisita a compra de um produto, o mesmo fica temporariamente
+bloqueado a outros requerentes. Aquele, então, deve fornecer credenciais de pagamento 
+e confirmar a compra. Quando a compra é confirmada, o produto em questão é descontado 
+do estoque, inviabilizando a comprar por outros usuários. Caso a compra não seja 
+efetivada a tempo, o produto é liberado para outros o comprarem.
+
+- Arquitetura de um site de e-commerce (Exemplo ingresso.com) [[202205131005]]

@@ -1,0 +1,10 @@
+# 202205131025  Design de tabelas de um site de e-commerce
+
+
+
+
+
+Leituras úteis: Princípios ACID p/ banco de dados [[202205131051]]
+
+Exemplo: {{file:./img/202205131005-img00}}
+Referência: https://fabric.inc/blog/ecommerce-database-design-example/

@@ -1,0 +1,11 @@
+# 202205130947 Escalando projetos web
+
+- Contexto: Na estreia do homem-aranha do hype, o site do ingresso.com ofereceu uma
+péssima experiência ao usuário. A compra dos ingressos foram lentas, quando possíveis.
+O site não aguenteou uma grande carga de acessos simultâneos e passou a responder mal.
+Nesse contexto, Fábio Akita puxou uma discussão oferecendo soluções de como escalar
+o sistema de forma a aguentar mais requisições simultâneas. Apesar desse ser o exemplo,
+o que são oferecidos aqui são princípios, que servem para qualquer projeto web real,
+em qualquer linguagem/framework.
+
+- Em termos de conceito, o ingresso.com é como se fosse um e-commerce. [[202205130959]]

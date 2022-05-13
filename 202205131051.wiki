@@ -1,0 +1,35 @@
+# 202205131051 Princípios ACID p/ banco de dados
+
+- Um banco de dados é uma solução para fornecer confiabilidade na operação de 
+persistência de dados em um sistema de informação. 
+- Para tal, existe um conjunto de padrões que nomeados ACID que tornou-se consenso
+p/ montagem de bancos de dados confiáveis.
+
+- Existe o conceito de transação, que é a operação delicada a ser realizada, que
+deve ser feita de forma íntegra. No caso de um banco de dados, todas as queries
+que alteram o estado do banco, são transações, pois não podem ser feita pela metade,
+por exemplo. Afinal, isso deixaria o banco num estado inconsistente.
+
+- É a transação que deve atender aos princípios ACID, que são:
+
+* Atomicidade: A operação é atômica - Ou ela acontece, ou não acontece. Isso previne
+o caso de ela falhar no meio e deixar alterações incompletas no banco. 
+Por exemplo, uma operação de transferência de dinheiro sempre deve ser atômica.
+Se uma conta bancário possui 10 reais e outra 0, uma operação não atômica que falhasse
+no meio poderia deixar ambas com 10 ou ambas com 0.
+Em bancos de dados isso abrange desastres de falhas de rede e até queda de energia.
+As queries que não foram executadas com sucesso ficam armazenadas em um arquivo
+do tipo "journal.log", para que sejam reiníciadas quando for possível.
+
+* Consistência: É a propriedade da transação que leva o banco de um estado consistente
+para outro igualmente consistente. Isto é, altera-no de forma previsível. Isso ecoa
+com a propriedade anterior, pois a operação atômica justamente previne deixar o banco
+em um estado intermediário, inconsistente e imprevisível. Um exemplo de inconsistência
+é, por exemplo, se um CPF aparece duas vezes no meio da operação (Desrespeita a unicidade
+desta chave) ou se o CPF, por conta de interrupção da operação, acaba sendo salvo com
+um número menor de caracteres (Desrespeita uma regra definida para esse dado).
+
+* Isolamento: As transações são indepentes entre si e não se enxergam. Similar 
+ao comportamento das threads. 
+
+* Durabilidade: A persistência dos dados é garantida, tolerante a falhas.
