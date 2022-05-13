@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script assumes a configured github account and a SSH key registered on it.
+
 if [[ `git status --porcelain` ]]; then
 	printf "Changes were found on the repository. Saving on remote.\n"
 	git add .
