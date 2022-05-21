@@ -1,0 +1,20 @@
+# 202205211428 Tmux
+
+* Principais comandos (Todos precedidos por Ctrl+b):
+	* c: create
+	* n: next
+	* p: previous
+	* l: last -> janela anterior
+	* 2: janela 2
+	* ,: Renomear janela atual
+	* w: Menu de janelas
+	* d: Dettach -> Sai da janela sem matar a sessão.
+	* $ tmux ls
+		* mostra as janelas ativas.
+		* $ tmux attach -t conName
+	* Paineis:
+		* %: Divide verticalmente
+		* o: Alterna entre os paineis
+		* ": Divide horizontalmente
+		* Setas: Alterna paineis de forma correspondente
+		* Segurando ctrl+B + seta-esquerda: Extende o painel p/ esquerda. 

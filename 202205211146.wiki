@@ -6,5 +6,12 @@
 - Arrastando linha: ddp
 	- dd: apaga linha e salva no default register.
 	- p: copia no arquivo o que estiver no default register.
+- Todo: Descobrir como arrastar bloco.
+- Comentar e descomentar várias linhas estilo C++
+	- Adicionar as seguintes linhas ao .vimrc
+		- map <C-c> :s/^/\/\//<Enter>
+		- map <C-u> :s/^\/\///<Enter>
+	- Seleciona bloco com V maiúsculo. Ctrl+C comenta, Ctrl+U descomenta. 
+- Colorscheme: Monokai https://github.com/sickill/vim-monokai 
 
 * Usando o vim como Ide [[202205211147]]
