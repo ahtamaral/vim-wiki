@@ -1,0 +1,13 @@
+
+# 202205131208 Arquitetura MVC
+
+- Controler: Recebe a requisição de um cliente e a envia p/ o model.
+- Model: O model é quem interage com o banco de dados. Ele basicamente pega as
+informações relevantes que a requisição forneceu e monta uma query que carrega
+determinada informação do banco e uma estrutura de dados na própria linguagem e 
+a envia para o View.
+- View: Recebe as informações do banco e as formata como uma resposta para o
+cliente (Um HTML, p. ex.).
+
+
+Exemplo: {{file:./img/202205181533-img00}}

@@ -1,0 +1,3 @@
+# 202205211200 Bash
+
+* Encontrando padrões em arquivos e diretórios [[202205211201]]

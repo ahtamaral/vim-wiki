@@ -10,3 +10,6 @@
 
 * Javascript
 * Escalando projetos web [[202205130947]]
+* Arquitetura MVC [[202205131208]]
+* Vim [[202205211146]]
+* Bash [[202205211200]]

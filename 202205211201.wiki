@@ -1,0 +1,6 @@
+# 202205211201 Encontrando padrões em arquivos e diretórios
+
+* Encontrando arquivo por nome:
+	- find <search-origin> -name "*.cpp"
+* Encontrando padrões recursivamente dentro de arquivos.
+	- grep -Rin "text-to-find-here" <search-origin>

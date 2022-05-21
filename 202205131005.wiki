@@ -1,5 +1,7 @@
 # 202205131005 Arquitetura de um site e-commerce (Exemplo ingresso.com)
 
-Design de tabelas [[202205131025]]
-Processo de checkout
+- Design de tabelas [[202205131025]]
+- Processo de checkout
 
+* Os problemas listados pelo Akita são independentes de linguagem/framework. São
+inteiramente causados por uma arquitetura ruim.
