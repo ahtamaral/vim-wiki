@@ -1,0 +1,23 @@
+# 202205221820 Princípios do Drogon Framework.
+
+* Pode implementar sites dinâmicos e estáticos.
+* Sites estáticos fornecem Html estaticamente, sem mudança.
+* Sites dinâmicos respondem à requisições HTTP do navegador e montam um HTML de acordo.
+	* No desempate, o Drogon fornece um site dinâmico.
+
+* Para criar projetos, controladores e tudo mais, recomenda-se usar o drogon_ctl.
+
+*  Controladores recebem uma requisição HTTP, realizam determinada lógica, e enviam
+uma resposta ao navegador.
+*  Há três tipos de controladores:
+	* HttpSimpleController
+	* HttpController
+	* WebSocketController
+* Ao criar um objeto controller, é necessário estabelecer uma herança das classes acima.
+* Cada controller pode ter uma ou mais funções de processamento implementada.
+* O controller existe durante todo o tempo de execução da aplicação. Sendo assim,
+é possível instanciar variáveis locais nela. 
+* Os handlers existem num contexto multi-thread. Para alterar recursos compartilhados,
+utilizar o métodos convencionais para evitar condições de corrida.
+
+# Baseia-se na arquitetura MVC [[202205131208]] 

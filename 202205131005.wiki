@@ -5,3 +5,5 @@
 
 * Os problemas listados pelo Akita são independentes de linguagem/framework. São
 inteiramente causados por uma arquitetura ruim.
+
+- Arquitetura MVC [[202205131208]]
