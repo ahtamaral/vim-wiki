@@ -1,0 +1,5 @@
+# 202205221625 Borrow-checker
+
+# Pré-requisito: Gerenciamento de memória [[202205221639]]
+
+

@@ -1,0 +1,3 @@
+# 202205221613 Rust
+
+* Por quê Rust está substituindo C++? [[202205221614]]

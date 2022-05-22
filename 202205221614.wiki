@@ -1,0 +1,27 @@
+# 202205221614 Por quê Rust está substituindo C++?
+
+* 70% dos problemas de segurança mapeados pela equipe da Google são referentes
+ao mau gerenciamento de memória: Uso inadequado de ponteiros faz com que certas
+regiões de memória sejam mau interpretadas.
+
+* Existem três alternativas p/ consertar o problema
+	* [1] Implementar checagens de memória em tempo de compilação do C++.
+	* [2] Implementar checagens de memória em tempo de execução do C++.
+	* [3] Utilizar uma nova linguagem, memory-safe -> No caso, Rust.
+
+* [1] não é possível por conta do próprio design da linguagem. C++ simplesmente não
+foi construido para isso ocorrer.
+	* Essa seria a opção ideal: Problemas de memória seriam identificados
+	durante a compilação, antes mesmo do chrome checar na máquina do usuário.
+	* Contudo, há um estudo mostrando a inviabilidade disso em C++.
+	* Borrow-checker [[202205221625]]
+
+* [2] é uma possibilidade sendo estudada, mas o tratamento em tempo de execução,
+conforme a quantidade de ponteiros cresce, afeta a performance do código. Como o
+Chrome é um software mundialmente utilizado e por usuários finais (possivelmente
+com máquinas não potentes), isso causaria uma web mais lenta.
+* [3] é uma possibilidade promissora. O que está sendo estudado é a viabilidade de
+integrar novo código Rust com o já existente C++.
+
+
+* Referência: https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html 

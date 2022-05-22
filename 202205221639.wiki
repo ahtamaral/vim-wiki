@@ -1,0 +1,38 @@
+# 202205221639 Gerenciamento de memória
+
+* Há três tipos predominantes de gerenciar a memória que um processo aloca:
+	* [1] Alocação de memória manual (Lings. baixo nível: C/C++)
+	* [2] Garbage Collector (Lings. mais alto nível: Java, C#, Python)
+	* [3] Borrow-checker [[202205221625]] (Método mais recente e único do Rust)
+
+* Fundamentalmente, toda memória alocada fica na stack ou no heap.
+* A diferença mais básica é que na stack são alocados dados com tamanhos pré-determinados
+(tipos de tamanho fixo: booleans, chars, ints, floats), já no heap eles podem ter
+tamanhos arbitrários (strings, lists, matrizes, árvores, etc).
+
+* Alocar e recuper dados da stack é mais rápido e eficiente, pois os dados estão
+limitados a tamanhos fixos. Já na heap, o processo é mais lento, mas os dados
+podem ser mais flexíveis.
+	* P. ex, na Heap, o programa tem que encontrar uma região de memória
+	vazia o suficiente p/ alocar o dado em questão. Isso consome tempo.
+	E, uma vez que é encontrado, nós temos acesso apenas a um ponteiro para
+	a região de memória encontrada.
+* Basicamente por esses motivos, existem esses dois setores de memória diferentes
+em um programa.
+
+* [1] A memória alocada na stack é automaticamente desalocada pelo programa quando
+seu escopo deixa de existir.
+* *Toda* memória alocada (manualmente) no heap precisa ser, também, manualmente
+desalocada (Contudo, apenas uma única vez).
+	* O mau gerenciamento desse processo pode levar ao heap Overflow ou
+à má interpretação de regiões de memória.
+
+* [2] O garbage collector é responsável por desalocar os dados do Heap também
+automaticamente, tirando essa tarefa do programador, que é propenso a erros.
+
+* Contudo, alocação manual te garante maior controle sobre os dados e melhor performance.
+* Garbage Collection representa um custo de performance.
+
+* [3] Borrow-checker [[202205221625]]
+
+Referência: https://blog.logrocket.com/introducing-the-rust-borrow-checker/
