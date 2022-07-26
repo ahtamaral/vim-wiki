@@ -1,0 +1,20 @@
+# 202205251018 For loop
+
+* ---
+for i in 1 2 3 4 5;
+do
+	echo "counter $i";
+done
+* ---
+for file in *; do echo "$file"; done
+file1.txt
+file2.txt
+file3.txt
+
+* ---
+for counter in $(seq 1 255); do echo "$counter"; done
+
+* Comando seq cria lista incremental de 1 a 255.
+* ---
+
+Referência: https://imasters.com.br/desenvolvimento/bash-for-loop-primeiro-passo-na-automacao-no-linux

@@ -1,0 +1,14 @@
+# 202207141349
+
+Por padrão, a autentucação do root não é por senha, mas por um plugin específico.
+Para tal, é necessário mudar o método de auth na tabela mysql.user
+
+SELECT user,authentication_string,plugin,host FROM mysql.user;
+
+
+
+# Se não conseguir logar como root
+
+Usuário "debian-sys-maint" tem as mesmas permissões que o root.
+Pegar credenciais com "cat /etc/mysql/debian.cnf"
+https://unix.stackexchange.com/questions/327120/after-fresh-install-of-mysql-server-cant-log-in-with-mysql-root-u
